@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Indie Flower";
+  src: url("../font/IndieFlower/web_fonts/indieflower_regular_macroman/IndieFlower-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cuprum";
+  src: url("../font/Cuprum/Cuprum-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.App-nav {
+  font-family: "Cuprum", sans-serif;
+}
+
+.App-header {
+  font-family: "Cuprum", sans-serif;
+  color: white;
+}
+.App-header .container-fluid .header-kiri {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+.App-header .container-fluid .header-kiri img {
+  border: 5px solid #bbb;
+}
+.App-header .container-fluid .header-kanan {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+}
+.App-header .container-fluid .header-kanan h1.display-3 {
+  font-family: "Indie Flower", cursive;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-footer {
+  font-family: "Cuprum", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
