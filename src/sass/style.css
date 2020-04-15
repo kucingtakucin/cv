@@ -10,6 +10,13 @@
   font-weight: normal;
   font-style: normal;
 }
+p.live-clock {
+  position: fixed;
+  top: 75px;
+  right: 20px;
+  z-index: 999;
+}
+
 .App-nav {
   font-family: "Cuprum", sans-serif;
 }
@@ -49,6 +56,139 @@
 
 .App-footer {
   font-family: "Cuprum", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+.App-footer h5 {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  min-height: 65px;
+  line-height: 65px;
+}
+.App-footer h5 a {
+  color: white;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  p.live-clock button {
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .App-header .container-fluid .header-left h2 {
+    font-size: 30px;
+  }
+  .App-header .container-fluid .header-left h6 {
+    font-size: 18px;
+  }
+  .App-header .container-fluid .header-right h1.display-4 {
+    font-size: 50px;
+  }
+  .App-header .container-fluid .header-right h2 {
+    font-size: 30px;
+  }
+  .App-header .container-fluid .header-right button {
+    padding: 5px;
+    font-size: 18px;
+  }
+  .App-header .container-fluid .header-right p.mb-0 {
+    font-size: 18px;
+  }
+
+  .App-main .container-fluid .main-left h2 {
+    font-size: 25px;
+  }
+  .App-main .container-fluid .main-left p.mb-0 {
+    font-size: 18px;
+  }
+  .App-main .container-fluid .main-left .col-sm-6 {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-left .col-sm-6 .fa-circle {
+    width: 15px;
+    height: 15px;
+  }
+  .App-main .container-fluid .main-right h2 {
+    font-size: 25px;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 ul {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 ul li p.mb-0 {
+    font-size: 18px;
+  }
+  .App-main .container-fluid .main-right h6 {
+    font-size: 18px;
+  }
+  .App-main .container-fluid .main-right section p.mb-0 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  p.live-clock button {
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .App-header .container-fluid .header-left img {
+    width: 150px;
+    height: 150px;
+  }
+  .App-header .container-fluid .header-left h2 {
+    font-size: 22px;
+  }
+  .App-header .container-fluid .header-left h6 {
+    font-size: 13px;
+  }
+  .App-header .container-fluid .header-right h1.display-4 {
+    font-size: 40px;
+  }
+  .App-header .container-fluid .header-right h2 {
+    font-size: 22px;
+  }
+  .App-header .container-fluid .header-right button {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .App-header .container-fluid .header-right p.mb-0 {
+    font-size: 13px;
+  }
+
+  .App-main .container-fluid .main-left h2 {
+    font-size: 22px;
+  }
+  .App-main .container-fluid .main-left p.mb-0 {
+    font-size: 13px;
+  }
+  .App-main .container-fluid .main-left .col-sm-6 {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-left .col-sm-6 .fa-circle {
+    width: 10px;
+    height: 10px;
+  }
+  .App-main .container-fluid .main-right h2 {
+    font-size: 22px;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 ul {
+    padding: 0;
+  }
+  .App-main .container-fluid .main-right .col-sm-4 ul li p.mb-0 {
+    font-size: 13px;
+  }
+  .App-main .container-fluid .main-right h6 {
+    font-size: 13px;
+  }
+  .App-main .container-fluid .main-right section p.mb-0 {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

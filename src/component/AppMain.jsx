@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from "prop-types";
 import '../sass/style.css';
 import {Col, Container, Media, Row} from "reactstrap";
 
@@ -21,7 +20,7 @@ class AppMain extends Component {
                 <main className="App-main">
                     <Container className="themed-container" fluid={true}>
                         <Row>
-                            <Col sm="5" className="main-left d-flex flex-column align-items-stretch justify-content-center">
+                            <Col sm="5" className="main-left d-flex flex-column align-items-stretch justify-content-start">
                                 <Media>
                                     <Media left href="#">
                                         {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
@@ -77,7 +76,7 @@ class AppMain extends Component {
                                     </Media>
                                 </Media>
                             </Col>
-                            <Col sm="7" className="main-right d-flex flex-column align-items-stretch justify-content-center">
+                            <Col sm="7" className="main-right d-flex flex-column align-items-stretch justify-content-start">
                                 <Media className="ml-5">
                                     <Media left href="#">
                                         {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
@@ -106,14 +105,14 @@ class AppMain extends Component {
                                         <Row>
                                             <Col sm="4">
                                                 <ul>
-                                                    <li>Jujur</li>
-                                                    <li>Disiplin</li>
+                                                    <li><p className="mb-0">Jujur</p></li>
+                                                    <li><p className="mb-0">Disiplin</p></li>
                                                 </ul>
                                             </Col>
                                             <Col sm="4">
                                                 <ul>
-                                                    <li>Tanggung Jawab</li>
-                                                    <li>Semangat</li>
+                                                    <li><p className="mb-0">Tanggung Jawab</p></li>
+                                                    <li><p className="mb-0">Semangat</p></li>
                                                 </ul>
                                             </Col>
                                         </Row>

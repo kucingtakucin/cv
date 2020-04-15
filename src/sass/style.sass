@@ -10,6 +10,12 @@
     font-weight: normal
     font-style: normal
 
+p.live-clock
+    position: fixed
+    top: 75px
+    right: 20px
+    z-index: 999
+
 .App-nav
     font-family: 'Cuprum', sans-serif
 
@@ -42,3 +48,120 @@
 
 .App-footer
     font-family: 'Cuprum', sans-serif
+    width: 100%
+    box-sizing: border-box
+    h5
+        color: white
+        margin: 0
+        font-size: 20px
+        min-height: 65px
+        line-height: 65px
+        a
+            color: white
+
+@media (min-width: 992px) and (max-width: 1200px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 18px
+
+    .App-header
+        .container-fluid
+            .header-left
+                h2
+                    font-size: 30px
+                h6
+                    font-size: 18px
+            .header-right
+                h1.display-4
+                    font-size: 50px
+                h2
+                    font-size: 30px
+                button
+                    padding: 5px
+                    font-size: 18px
+                p.mb-0
+                    font-size: 18px
+
+    .App-main
+        .container-fluid
+            .main-left
+                h2
+                    font-size: 25px
+                p.mb-0
+                    font-size: 18px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        width: 15px
+                        height: 15px
+            .main-right
+                h2
+                    font-size: 25px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        padding: 0
+                        li
+                            p.mb-0
+                                font-size: 18px
+                h6
+                    font-size: 18px
+                section
+                    p.mb-0
+                        font-size: 18px
+
+@media (min-width: 768px) and (max-width: 992px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 18px
+
+    .App-header
+        .container-fluid
+            .header-left
+                img
+                    width: 150px
+                    height: 150px
+                h2
+                    font-size: 22px
+                h6
+                    font-size: 13px
+            .header-right
+                h1.display-4
+                    font-size: 40px
+                h2
+                    font-size: 22px
+                button
+                    padding: 5px
+                    font-size: 14px
+                p.mb-0
+                    font-size: 13px
+
+    .App-main
+        .container-fluid
+            .main-left
+                h2
+                    font-size: 22px
+                p.mb-0
+                    font-size: 13px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        width: 10px
+                        height: 10px
+            .main-right
+                h2
+                    font-size: 22px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        padding: 0
+                        li
+                            p.mb-0
+                                font-size: 13px
+                h6
+                    font-size: 13px
+                section
+                    p.mb-0
+                        font-size: 13px

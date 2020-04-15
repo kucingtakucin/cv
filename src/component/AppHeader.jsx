@@ -16,9 +16,9 @@ class AppHeader extends Component {
                 <header className="App-header">
                     <Container className="themed-container" fluid={true}>
                         <Row>
-                            <Col sm="5" className="header-left d-flex flex-column justify-content-center align-items-center">
+                            <Col sm="5" className="header-left d-flex flex-column justify-content-end align-items-center">
                                 <img src={fotoSMA} alt="Arthur" className="rounded-circle mb-2"/>
-                                <Media>
+                                <Media className="mb-4">
                                     <Media left href="#">
                                         {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
                                         <i className="fas fa-address-card fa-3x mr-3"/>
@@ -76,14 +76,14 @@ class AppHeader extends Component {
                                     </Media>
                                 </Media>
                             </Col>
-                            <Col sm="7" className="header-right d-flex flex-column align-items-stretch justify-content-center">
+                            <Col sm="7" className="header-right d-flex flex-column align-items-stretch justify-content-end">
                                 <h1 className="display-4 font-weight-bold ml-5">{this.state.name}</h1>
                                 <p className="mb-4 ml-5">
                                     <Button color="info">Web Developer</Button>{' '}
                                     <Button color="info">Mobile-Apps Developer</Button>{' '}
                                     <Button color="info">Cyber Security</Button>
                                 </p>
-                                <Media className="ml-5">
+                                <Media className="ml-5 mb-3">
                                     <Media left href="#">
                                         {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
                                         <i className="fas fa-user-graduate fa-3x mr-3"/>

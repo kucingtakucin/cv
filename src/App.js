@@ -6,7 +6,7 @@ import AppHeader from "./component/AppHeader";
 import AppMain from "./component/AppMain";
 import AppFooter from "./component/AppFooter";
 import {Route, Switch} from "react-router-dom";
-import {Col, Container, Media, Navbar, NavbarBrand, NavbarText, Row} from "reactstrap";
+import {Button ,Col, Container, Media, Navbar, NavbarBrand, NavbarText, Row} from "reactstrap";
 import PropTypes from "prop-types";
 
 class App extends Component {
@@ -31,33 +31,6 @@ class AppRouter extends Component {
                 </Switch>
             </React.Fragment>
         )
-    }
-}
-
-class Clock extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            date: new Date(),
-        }
-    }
-
-    componentDidMount() {
-        this.timerID = setInterval(() => this.tick(), 10);
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.timerID);
-    }
-
-    tick(){
-        this.setState({
-            date: new Date(),
-        });
-    }
-
-    render() {
-        return this.state.date.toLocaleTimeString();
     }
 }
 
@@ -139,5 +112,45 @@ Media.propTypes = {
     tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
     top: PropTypes.bool,
 };
+
+Button.propTypes = {
+    active: PropTypes.bool,
+    'aria-label': PropTypes.string,
+    block: PropTypes.bool,
+    color: PropTypes.string, // default: 'secondary'
+    disabled: PropTypes.bool,
+    outline: PropTypes.bool,
+
+    // Pass in a Component to override default button element
+    // example: react-router Link
+    // default: 'button'
+    tag: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.string,
+        PropTypes.shape({ $$typeof: PropTypes.symbol, render: PropTypes.func }),
+        PropTypes.arrayOf(PropTypes.oneOfType([
+            PropTypes.func,
+            PropTypes.string,
+            PropTypes.shape({ $$typeof: PropTypes.symbol, render: PropTypes.func }),
+        ]))
+    ]),
+
+    // ref will only get you a reference to the Button component, use innerRef to get a reference to the DOM element (for things like focus management).
+    innerRef: PropTypes.oneOfType([PropTypes.object, PropTypes.func, PropTypes.string]),
+
+    onClick: PropTypes.func,
+    size: PropTypes.string,
+    children: PropTypes.node,
+    className: PropTypes.string,
+    cssModule: PropTypes.object,
+
+    // use close prop for BS4 close icon utility
+    close: PropTypes.bool,
+}
+
+Button.defaultProps = {
+    color: 'secondary',
+    tag: 'button',
+}
 
 export default AppRouter;
