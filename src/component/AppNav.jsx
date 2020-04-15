@@ -26,30 +26,4 @@ function AppNav() {
     )
 }
 
-Navbar.propTypes = {
-    light: PropTypes.bool,
-    dark: PropTypes.bool,
-    fixed: PropTypes.string,
-    color: PropTypes.string,
-    role: PropTypes.string,
-    expand: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
-    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-    // pass in custom element to use
-}
-
-NavbarBrand.propTypes = {
-    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-    // pass in custom element to use
-}
-
-NavbarText.propTypes = {
-    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-    // pass in custom element to use
-}
-
-Container.propTypes = {
-    fluid: PropTypes.oneOfType([PropTypes.bool, PropTypes.string])
-    // applies .container-fluid class if bool or .container-{breakpoint} if string
-}
-
 export default AppNav;

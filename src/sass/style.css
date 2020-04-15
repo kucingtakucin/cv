@@ -18,29 +18,31 @@
   font-family: "Cuprum", sans-serif;
   color: white;
 }
-.App-header .container-fluid .header-kiri {
+.App-header .container-fluid .header-left {
   min-height: 100vh;
   background-color: lightblue;
 }
-.App-header .container-fluid .header-kiri img {
+.App-header .container-fluid .header-left img {
   border: 5px solid #eaeaea;
 }
-.App-header .container-fluid .header-kanan {
+.App-header .container-fluid .header-right {
   min-height: 100vh;
   background-color: #282c34;
 }
-.App-header .container-fluid .header-kanan h1.display-4 {
+.App-header .container-fluid .header-right h1.display-4 {
   font-family: "Indie Flower", cursive;
 }
 
 .App-main {
+  font-family: "Cuprum", sans-serif;
+  color: white;
   background-color: #282c34;
 }
-.App-main .container-fluid .main-kiri {
+.App-main .container-fluid .main-left {
   min-height: 100vh;
   background-color: lightblue;
 }
-.App-main .container-fluid .main-kanan {
+.App-main .container-fluid .main-right {
   min-height: 100vh;
   background-color: #282c34;
 }

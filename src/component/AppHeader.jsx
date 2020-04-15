@@ -16,7 +16,7 @@ class AppHeader extends Component {
                 <header className="App-header">
                     <Container className="themed-container" fluid={true}>
                         <Row>
-                            <Col sm="5" className="header-kiri d-flex flex-column justify-content-center align-items-center">
+                            <Col sm="5" className="header-left d-flex flex-column justify-content-center align-items-center">
                                 <img src={fotoSMA} alt="Arthur" className="rounded-circle mb-2"/>
                                 <Media>
                                     <Media left href="#">
@@ -76,14 +76,14 @@ class AppHeader extends Component {
                                     </Media>
                                 </Media>
                             </Col>
-                            <Col sm="7" className="header-kanan d-flex flex-column align-items-center justify-content-center">
-                                <h1 className="display-4 font-weight-bold">{this.state.name}</h1>
-                                <p className="mb-4">
+                            <Col sm="7" className="header-right d-flex flex-column align-items-stretch justify-content-center">
+                                <h1 className="display-4 font-weight-bold ml-5">{this.state.name}</h1>
+                                <p className="mb-4 ml-5">
                                     <Button color="info">Web Developer</Button>{' '}
                                     <Button color="info">Mobile-Apps Developer</Button>{' '}
                                     <Button color="info">Cyber Security</Button>
                                 </p>
-                                <Media>
+                                <Media className="ml-5">
                                     <Media left href="#">
                                         {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
                                         <i className="fas fa-user-graduate fa-3x mr-3"/>
@@ -110,63 +110,5 @@ class AppHeader extends Component {
         )
     }
 }
-
-Container.propTypes = {
-    fluid: PropTypes.oneOfType([PropTypes.bool, PropTypes.string])
-    // applies .container-fluid class if bool or .container-{breakpoint} if string
-}
-
-Row.propTypes = {
-    noGutters: PropTypes.bool,
-    // see https://reactstrap.github.io/components/form Form Grid with Form Row
-    form: PropTypes.bool,
-    xs: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-    sm: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-    md: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-    lg: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-    xl: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-}
-
-const stringOrNumberProp = PropTypes.oneOfType([PropTypes.number, PropTypes.string]);
-const columnProps = PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-    PropTypes.bool,
-    PropTypes.shape({
-        size: PropTypes.oneOfType([PropTypes.bool, PropTypes.number, PropTypes.string]),
-        // example size values:
-        // 12 || "12" => col-12 or col-`width`-12
-        // auto => col-auto or col-`width`-auto
-        // true => col or col-`width`
-        order: stringOrNumberProp,
-        offset: stringOrNumberProp
-    })
-]);
-
-Col.propTypes = {
-    xs: columnProps,
-    sm: columnProps,
-    md: columnProps,
-    lg: columnProps,
-    xl: columnProps,
-    // override the predefined width (the ones above) with your own custom widths.
-    // see https://github.com/reactstrap/reactstrap/issues/297#issuecomment-273556116
-    widths: PropTypes.array,
-}
-
-Media.propTypes = {
-    body: PropTypes.bool,
-    bottom: PropTypes.bool,
-    children: PropTypes.node,
-    className: PropTypes.string,
-    heading: PropTypes.bool,
-    left: PropTypes.bool,
-    list: PropTypes.bool,
-    middle: PropTypes.bool,
-    object: PropTypes.bool,
-    right: PropTypes.bool,
-    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-    top: PropTypes.bool,
-};
 
 export default AppHeader;
