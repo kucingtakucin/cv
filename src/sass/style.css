@@ -20,21 +20,13 @@
 }
 .App-header .container-fluid .header-kiri {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: lightblue;
 }
 .App-header .container-fluid .header-kiri img {
-  border: 5px solid #bbb;
+  border: 5px solid #eaeaea;
 }
 .App-header .container-fluid .header-kanan {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #282c34;
 }
 .App-header .container-fluid .header-kanan h1.display-4 {
@@ -43,7 +35,14 @@
 
 .App-main {
   background-color: #282c34;
+}
+.App-main .container-fluid .main-kiri {
   min-height: 100vh;
+  background-color: lightblue;
+}
+.App-main .container-fluid .main-kanan {
+  min-height: 100vh;
+  background-color: #282c34;
 }
 
 .App-footer {
