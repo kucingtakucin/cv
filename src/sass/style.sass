@@ -21,16 +21,20 @@ p.live-clock
 
 .App-header
     font-family: 'Cuprum', sans-serif
-    color: white
+    color: #282c34
     .container-fluid
         .header-left
-            min-height: 100vh
+            //min-height: 100vh
+            min-height: auto
+            padding-top: 80px
             background-color: lightblue
             img
                 border: 5px solid #eaeaea
         .header-right
-            min-height: 100vh
+            //min-height: 100vh
+            min-height: auto
             background-color: #282c34
+            color: white
             h1.display-4
                 font-family: 'Indie Flower', cursive
 
@@ -42,6 +46,7 @@ p.live-clock
         .main-left
             min-height: 100vh
             background-color: lightblue
+            color: #282c34
         .main-right
             min-height: 100vh
             background-color: #282c34
@@ -120,9 +125,9 @@ p.live-clock
     .App-header
         .container-fluid
             .header-left
-                img
-                    width: 150px
-                    height: 150px
+                //img
+                //    width: 100px
+                //    height: 100px
                 h2
                     font-size: 22px
                 h6
@@ -165,3 +170,251 @@ p.live-clock
                 section
                     p.mb-0
                         font-size: 13px
+
+@media (min-width: 576px) and (max-width: 768px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 18px
+
+    .App-header
+        .container-fluid
+            .header-left
+                //img
+                //    width: 100px
+                //    height: 100px
+                h2
+                    font-size: 16px
+                h6
+                    font-size: 8px
+            .header-right
+                h1.display-4
+                    font-size: 30px
+                h2
+                    font-size: 18px
+                button
+                    padding: 5px
+                    font-size: 10px
+                p.mb-0
+                    font-size: 8px
+
+    .App-main
+        .container-fluid
+            .main-left
+                h2
+                    font-size: 16px
+                p.mb-0
+                    font-size: 8px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        display: none
+            .main-right
+                h2
+                    font-size: 16px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        padding: 0
+                        li
+                            p.mb-0
+                                font-size: 8px
+                h6
+                    font-size: 8px
+                section
+                    p.mb-0
+                        font-size: 8px
+
+@media (min-width: 425px) and (max-width: 576px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 12px
+
+    .App-header
+        .container-fluid
+            .header-left
+                min-height: auto
+                h2
+                    font-size: 16px
+                h6
+                    font-size: 8px
+            .header-right
+                min-height: auto
+                padding-top: 20px
+                h1.display-4
+                    font-size: 30px
+                h2
+                    font-size: 18px
+                button
+                    padding: 5px
+                    font-size: 10px
+                p.mb-0
+                    font-size: 8px
+
+    .App-main
+        .container-fluid
+            .main-left
+                min-height: auto
+                padding-top: 20px
+                h2
+                    font-size: 16px
+                p.mb-0
+                    font-size: 8px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        //display: none
+                        width: 1px
+                        height: 1px
+            .main-right
+                min-height: auto
+                padding-top: 20px
+                h2
+                    font-size: 16px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        padding: 0
+                        li
+                            p.mb-0
+                                font-size: 8px
+                h6
+                    font-size: 8px
+                section
+                    p.mb-0
+                        font-size: 8px
+
+    .App-footer
+        h5
+            font-size: 15px
+
+@media (min-width: 320px) and (max-width: 425px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 12px
+
+    .App-header
+        .container-fluid
+            .header-left
+                min-height: auto
+                padding-top: 80px
+                h2
+                    font-size: 16px
+                h6
+                    font-size: 10px
+            .header-right
+                min-height: auto
+                padding-top: 20px
+                h1.display-4
+                    font-size: 25px
+                h2
+                    font-size: 18px
+                button
+                    padding: 4px
+                    font-size: 8px
+                p.mb-0
+                    font-size: 10px
+
+    .App-main
+        .container-fluid
+            .main-left
+                min-height: auto
+                padding-top: 20px
+                padding-bottom: 20px
+                h2
+                    font-size: 16px
+                p.mb-0
+                    font-size: 10px
+                    padding: 0 0 0 15px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        display: none
+            .main-right
+                min-height: auto
+                padding-top: 20px
+                h2
+                    font-size: 16px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        padding: 0 0 0 5px
+                        li
+                            p.mb-0
+                                font-size: 10px
+                h6
+                    font-size: 10px
+                section
+                    p.mb-0
+                        font-size: 10px
+
+    .App-footer
+        h5
+            font-size: 11px
+
+@media screen and (max-width: 320px)
+    p.live-clock
+        button
+            padding: 5px
+            font-size: 12px
+
+    .App-header
+        .container-fluid
+            .header-left
+                min-height: auto
+                padding-top: 80px
+                h2
+                    font-size: 16px
+                h6
+                    font-size: 8px
+            .header-right
+                min-height: auto
+                padding-top: 20px
+                h1.display-4
+                    font-size: 25px
+                h2
+                    font-size: 18px
+                button
+                    padding: 4px
+                    font-size: 8px
+                p.mb-0
+                    font-size: 6px
+
+    .App-main
+        .container-fluid
+            .main-left
+                min-height: auto
+                padding-top: 20px
+                padding-bottom: 20px
+                h2
+                    font-size: 16px
+                p.mb-0
+                    font-size: 8px
+                    padding: 0 0 0 15px
+                .col-sm-6
+                    padding: 0
+                    .fa-circle
+                        display: none
+            .main-right
+                min-height: auto
+                padding-top: 20px
+                h2
+                    font-size: 16px
+                .col-sm-4
+                    padding: 0
+                    ul
+                        //padding: 0 0 0 15px
+                        li
+                            p.mb-0
+                                font-size: 8px
+                h6
+                    font-size: 8px
+                section
+                    p.mb-0
+                        font-size: 8px
+
+    .App-footer
+        h5
+            font-size: 11px
