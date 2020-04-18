@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import './sass/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Route, Switch} from "react-router-dom";
+import PropTypes from "prop-types";
 import AppNav from "./component/AppNav";
 import AppHeader from "./component/AppHeader";
 import AppMain from "./component/AppMain";
 import AppFooter from "./component/AppFooter";
-import {Route, Switch} from "react-router-dom";
-import {Button ,Col, Container, Media, Navbar, NavbarBrand, NavbarText, Row} from "reactstrap";
-import PropTypes from "prop-types";
+import {Button, Col, Container, Media, Navbar, NavbarBrand, NavbarText, Row} from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './sass/style.css';
 
 class App extends Component {
     render() {

@@ -61,6 +61,17 @@ class AppHeader extends Component {
                                                 </Media>
                                             </Media>
                                         </Media>
+                                        <Media>
+                                            <Media left href="#">
+                                                {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
+                                                <i className="fas fa-globe fa-2x mr-3"/>
+                                            </Media>
+                                            <Media body>
+                                                <Media heading className="mt-2">
+                                                    <h6 className="mb-0">adamarthurf.github.io</h6>
+                                                </Media>
+                                            </Media>
+                                        </Media>
                                         <Media className="mb-3">
                                             <Media left href="#">
                                                 {/*<Media object data-src="holder.js/64x64" alt="Generic placeholder image" />*/}
