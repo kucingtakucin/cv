@@ -1,38 +1,40 @@
 import React, {Component} from 'react';
-import {Route, Switch} from "react-router-dom";
+// import {Route, Switch} from "react-router-dom";
 import PropTypes from "prop-types";
-import AppNav from "./component/AppNav";
-import AppHeader from "./component/AppHeader";
-import AppMain from "./component/AppMain";
-import AppFooter from "./component/AppFooter";
+// import AppNav from "./component/AppNav";
+// import AppHeader from "./component/AppHeader";
+// import AppMain from "./component/AppMain";
+// import AppFooter from "./component/AppFooter";
 import {Button, Col, Container, Media, Navbar, NavbarBrand, NavbarText, Row} from "reactstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/style.css';
 
-class App extends Component {
+export default class App extends Component {
     render() {
         return (
-            <React.Fragment>
-                <AppNav/>
+            <React.Fragment> 
+                <script async src="https://e.prezicdn.net/v1/design.js"></script>
+                <div className="prezi-design-embed" data-project-id="ywuaxknv2iqy"></div>   
+                {/* <AppNav/>
                 <AppHeader/>
                 <AppMain/>
-                <AppFooter/>
+                <AppFooter/> */}
             </React.Fragment>
         );
     }
 }
 
-class AppRouter extends Component {
-    render() {
-        return (
-            <React.Fragment>
-                <Switch>
-                    <Route path="/" component={App} exact={true}/>
-                </Switch>
-            </React.Fragment>
-        )
-    }
-}
+// export default class AppRouter extends Component {
+//     render() {
+//         return (
+//             <React.Fragment>
+//                 <Switch>
+//                     <Route path="/" component={App} exact={true}/>
+//                 </Switch>
+//             </React.Fragment>
+//         )
+//     }
+// }
 
 Navbar.propTypes = {
     light: PropTypes.bool,
@@ -153,4 +155,3 @@ Button.defaultProps = {
     tag: 'button',
 }
 
-export default AppRouter;
