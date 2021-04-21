@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/Curriculum-Vitae/static/css/main.ac9b3da6.chunk.css",
-    "main.js": "/Curriculum-Vitae/static/js/main.bbe72ea1.chunk.js",
-    "main.js.map": "/Curriculum-Vitae/static/js/main.bbe72ea1.chunk.js.map",
-    "runtime-main.js": "/Curriculum-Vitae/static/js/runtime-main.ba3398d3.js",
-    "runtime-main.js.map": "/Curriculum-Vitae/static/js/runtime-main.ba3398d3.js.map",
-    "static/css/2.de424728.chunk.css": "/Curriculum-Vitae/static/css/2.de424728.chunk.css",
-    "static/js/2.d2ec7e0c.chunk.js": "/Curriculum-Vitae/static/js/2.d2ec7e0c.chunk.js",
-    "static/js/2.d2ec7e0c.chunk.js.map": "/Curriculum-Vitae/static/js/2.d2ec7e0c.chunk.js.map",
-    "index.html": "/Curriculum-Vitae/index.html",
-    "precache-manifest.b40392522dcac67a94bbb15ffba04658.js": "/Curriculum-Vitae/precache-manifest.b40392522dcac67a94bbb15ffba04658.js",
-    "service-worker.js": "/Curriculum-Vitae/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/Curriculum-Vitae/static/css/2.de424728.chunk.css.map",
-    "static/css/main.ac9b3da6.chunk.css.map": "/Curriculum-Vitae/static/css/main.ac9b3da6.chunk.css.map",
-    "static/js/2.d2ec7e0c.chunk.js.LICENSE.txt": "/Curriculum-Vitae/static/js/2.d2ec7e0c.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/Curriculum-Vitae/static/media/IndieFlower-webfont.74295694.woff",
-    "static/media/fotoSMA3.jpg": "/Curriculum-Vitae/static/media/fotoSMA3.c515268a.jpg"
+    "main.css": "/cv/static/css/main.018c02bd.chunk.css",
+    "main.js": "/cv/static/js/main.946c0fb9.chunk.js",
+    "main.js.map": "/cv/static/js/main.946c0fb9.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.8afce7a1.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.8afce7a1.js.map",
+    "static/css/2.9233ae65.chunk.css": "/cv/static/css/2.9233ae65.chunk.css",
+    "static/js/2.55fc6a1c.chunk.js": "/cv/static/js/2.55fc6a1c.chunk.js",
+    "static/js/2.55fc6a1c.chunk.js.map": "/cv/static/js/2.55fc6a1c.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "precache-manifest.cdd4384661f957a35234b11b1632eb04.js": "/cv/precache-manifest.cdd4384661f957a35234b11b1632eb04.js",
+    "service-worker.js": "/cv/service-worker.js",
+    "static/css/2.9233ae65.chunk.css.map": "/cv/static/css/2.9233ae65.chunk.css.map",
+    "static/css/main.018c02bd.chunk.css.map": "/cv/static/css/main.018c02bd.chunk.css.map",
+    "static/js/2.55fc6a1c.chunk.js.LICENSE.txt": "/cv/static/js/2.55fc6a1c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/cv/static/media/IndieFlower-webfont.74295694.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba3398d3.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.d2ec7e0c.chunk.js",
-    "static/css/main.ac9b3da6.chunk.css",
-    "static/js/main.bbe72ea1.chunk.js"
+    "static/js/runtime-main.8afce7a1.js",
+    "static/css/2.9233ae65.chunk.css",
+    "static/js/2.55fc6a1c.chunk.js",
+    "static/css/main.018c02bd.chunk.css",
+    "static/js/main.946c0fb9.chunk.js"
   ]
 }
